@@ -8,24 +8,24 @@ namespace Coterie.UnitTests
     
     public class TestServiceTestsBase
     {
-        // Sample Moq setup
-        // protected Mock<ITestService> MockTestService;
+        //// Sample Moq setup
+        //// protected Mock<ITestService> MockTestService;
 
-        protected TestService TestService;
+        //protected TestService TestService;
 
-        [OneTimeSetUp]
-        public void BaseOneTimeSetup()
-        {
-            //MockTestService = new Mock<ITestService>();
+        //[OneTimeSetUp]
+        //public void BaseOneTimeSetup()
+        //{
+        //    //MockTestService = new Mock<ITestService>();
 
-            TestService = new TestService();
-        }
+        //    TestService = new TestService();
+        //}
 
-        [TearDown]
-        public void Cleanup()
-        {
-            // Sample reset after each test is ran
-            //MockTestService.Reset();
-        }
+        //[TearDown]
+        //public void Cleanup()
+        //{
+        //    // Sample reset after each test is ran
+        //    //MockTestService.Reset();
+        //}
     }
 }
